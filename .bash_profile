@@ -9,7 +9,9 @@ alias rania='pushd ~/HashimIbrahimCo/RaniaGold/'
 alias hackday='pushd ~/Hackday/CampusLifeHackday/'
 alias lextra='pushd ~/Projects/Laravel/LaravelWithExtras/'
 alias astudio='pushd ~/AndroidStudioProjects/Sandbox'
+alias skadimo='pushd ~/Cara/Skadimo/laravel/'
 
 alias serve='php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;'
 
-
+alias t='./vendor/bin/codecept run acceptance'
+alias artisan='php artisan'
