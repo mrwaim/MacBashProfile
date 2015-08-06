@@ -22,6 +22,8 @@ alias artisan='php artisan'
 
 alias gds='git diff --staged'
 alias gp='git push origin master'
+alias ga='git add .'
+alias gs='git status'
 
 alias atom=/Applications/Atom.app/Contents/MacOS/Atom
 
