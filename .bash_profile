@@ -24,9 +24,12 @@ alias gds='git diff --staged'
 alias gp='git push origin master'
 alias ga='git add .'
 alias gs='git status'
+# Should i add -a Probably not
+alias gc='git commit -m '
 
 alias atom=/Applications/Atom.app/Contents/MacOS/Atom
 
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+#
