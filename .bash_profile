@@ -12,13 +12,14 @@ alias hackday='pushd ~/Hackday/CampusLifeHackday/'
 alias lextra='pushd ~/Laravel/LaravelWithExtras/'
 alias astudio='pushd ~/AndroidStudioProjects/Sandbox'
 alias skadimo='pushd ~/Cara/Skadimo/laravel/'
-alias workbench='pushd ~/Laravel/Workbench/workbench/klsandbox/'
+alias wb='pushd ~/Laravel/Workbench/workbench/klsandbox/'
 alias qs='pushd ~/ionic/quranshare/'
-
+alias gnext='echo "git tag -a v0$(echo "$(git tag -l | sort -r | head -n 1 | sed -e 's/v//') + 0.1" | bc) -m 'notes'"'
 alias serve='php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;php artisan serve;'
 
 alias t='./vendor/bin/codecept run acceptance'
 alias artisan='php artisan'
+alias uchrome='open -a Google\ Chrome --args --disable-web-security'
 
 alias gds='git diff --staged'
 alias gp='git push origin master'
@@ -33,5 +34,9 @@ alias atom=/Applications/Atom.app/Contents/MacOS/Atom
 
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="/usr/local/heroku/bin:~/.composer/vendor/bin:$PATH"
 #
+
+alias phpstorm='/Applications/PhpStorm.app/Contents/MacOS/phpstorm'
+
+complete -C aws_completer aws
